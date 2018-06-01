@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Inline">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <h1 class="smCap">Pixel Art Maker</h1>
+
+    <fieldset id="chooseSize">
+        <legend class="legend">Choose Grid Size</legend>
+        <label for="inputHeight">Grid Height:</label>
+        <input type="number" id="inputHeight" class="focus" name="height" min="1" value="1">
+
+        <label for="inputWidth">Grid Width:</label>
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+
+        <button type="submit">Submit</button>
+    </fieldset>
+
+    <fieldset id="chooseColor">
+        <legend class="legend">Choose a Color</legend>
+        <input type="color" id="colorPicker">
+    </fieldset>
+
+    <fieldset id="canvas">
+        <legend class="legend">Design Canvas</legend>
+        <table id="pixelCanvas"></table>
+    </fieldset>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

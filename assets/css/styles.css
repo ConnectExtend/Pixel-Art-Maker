@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+h1 {
+  color: #1b3099;
+  font-family: "Bungee Inline", cursive;
+  font-size: 70px;
+  margin: 0 auto;
+}
+
+.smCap {
+  font-variant: small-caps;
+}
+
+#chooseSize,
+#chooseColor,
+#canvas {
+  border: none;
+  color: green;
+  margin-top: 0.5em;
+}
+
+.legend {
+  font-size: 31.5px;
+  font-weight: bold;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 30px;
+}
+
+td {
+  width: 30px;
+}
+
+input[type="number"] {
+  margin-right: 15px;
+  text-align: center;
+  width: 3.5em; 
+}
+
+input:focus {
+  background-color: lightslategray;
+}
